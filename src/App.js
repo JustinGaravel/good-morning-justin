@@ -19,7 +19,7 @@ function Greeting(props) {
 
 ReactDOM.render(
   <Greeting />,
-  document.getElementById('root1')
+  document.getElementById('greeting')
 );
 
 class Clock extends React.Component {
@@ -56,5 +56,5 @@ class Clock extends React.Component {
 
 ReactDOM.render(
   <Clock />,
-  document.getElementById('root2')
+  document.getElementById('date')
 );
