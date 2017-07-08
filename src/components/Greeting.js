@@ -7,12 +7,15 @@ export default class Greeting extends React.Component {
   }
 
   render() {
-    if (this.hour > 12) {
-      console.log('enter positive part of loop');
+    console.log(this.state.hour);
+
+    if (20 > this.state.hour > 12) {
       return <h1>Good Morning, Justin.</h1>;
-    } else {
-      console.log('entered "else"');
+    } else if (this.state.hour < 22) {
       return <h1>Good Afternoon, Justin.</h1>;
+    } else {
+      return <h1>Good Night, Justin.</h1>;
     }
   }
+
 }
