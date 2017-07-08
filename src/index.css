@@ -1,8 +1,32 @@
 body {
-  padding-top: 50px;
+  padding-top: 75px;
   font-family: sans-serif;
   margin: auto;
-  width: 75%;
-  background-color: #0E0E0E;
-  color: yellow;
+  width: 100%;
+
+}
+
+.leadTitle {
+  padding: 10em 0em 10em 0em;
+  text-align: center;
+}
+
+.morningTitle {
+  color: #ff0000;
+  background-color: #ffff99;
+}
+
+.afternoonTitle {
+  color: white;
+  background-color: green;
+}
+
+.nightTitle {
+  color: #111;
+  background-color: #9999ff;
+}
+.clock {
+  position: fixed;
+  top: 10px;
+  right: 10px;
 }
