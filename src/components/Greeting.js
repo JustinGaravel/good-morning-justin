@@ -15,7 +15,7 @@ export default class Greeting extends React.Component {
     } else if (this.state.hour < 21) {
       return <h1 className="leadTitle afternoonTitle">Good Afternoon, Justin.</h1>;
     } else {
-      return <h1 className="leadTitle morningTitle">Good Night, Justin.</h1>;
+      return <h1 className="leadTitle nightTitle">Good Night, Justin.</h1>;
     }
   }
 

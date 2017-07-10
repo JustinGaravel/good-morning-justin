@@ -7,8 +7,12 @@ body {
 }
 
 .leadTitle {
-  padding: 10em 0em 10em 0em;
   text-align: center;
+  margin: auto;
+  border-radius: 10px;
+  width: 50%;
+  padding: 3em 0 3em 0;
+
 }
 
 .morningTitle {
