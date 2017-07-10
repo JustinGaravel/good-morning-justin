@@ -1,17 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './App.css';
 import Clock from "./components/Clock";
 import Greeting from "./components/Greeting";
 
 
 
-ReactDOM.render(
-  <Greeting />,
-  document.getElementById('greeting')
-);
+export default class BigContainer extends React.Component {
+  render() {
+    return (
+      <div>
+        <Clock />
+        <Greeting />
+      </div>
+    )
+  }
+}
+
 
 ReactDOM.render(
-  <Clock />,
-  document.getElementById('date')
+  <BigContainer />,
+  document.getElementById('app')
 );
