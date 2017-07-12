@@ -9,8 +9,8 @@ export default class BigContainer extends React.Component {
   render() {
     return (
       <div>
-        <Clock />
         <Greeting />
+        <Clock />
       </div>
     )
   }
