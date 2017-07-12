@@ -18,8 +18,8 @@ body {
 }
 
 .morningTitle {
-  color: #ff0000;
-  background-color: #ffff99;
+  color: #111;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 }
 
 .afternoonTitle {
@@ -29,7 +29,9 @@ body {
 
 .nightTitle {
   color: #111;
-  background-color: #9999ff;
+  background-image: -webkit-linear-gradient(bottom, #30cfd0 0%, #330867 100%);
+  background-image: -o-linear-gradient(bottom, #30cfd0 0%, #330867 100%);
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 .clock {
   position: fixed;
