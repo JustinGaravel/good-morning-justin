@@ -5,7 +5,7 @@ import Greeting from "./components/Greeting";
 
 
 
-export default class BigContainer extends React.Component {
+export default class GoodMorningPage extends React.Component {
   render() {
     return (
       <div>
@@ -18,6 +18,6 @@ export default class BigContainer extends React.Component {
 
 
 ReactDOM.render(
-  <BigContainer />,
+  <GoodMorningPage />,
   document.getElementById('app')
 );
