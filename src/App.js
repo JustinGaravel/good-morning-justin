@@ -1,9 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 import Clock from "./components/Clock";
 import Greeting from "./components/Greeting";
-
-
 
 export default class GoodMorningPage extends React.Component {
   render() {
@@ -12,12 +10,8 @@ export default class GoodMorningPage extends React.Component {
         <Greeting />
         <Clock />
       </div>
-    )
+    );
   }
 }
 
-
-ReactDOM.render(
-  <GoodMorningPage />,
-  document.getElementById('app')
-);
+ReactDOM.render(<GoodMorningPage />, document.getElementById("app"));
